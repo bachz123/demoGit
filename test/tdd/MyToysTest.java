@@ -40,7 +40,7 @@ public class MyToysTest {
     
     @Test //Biến hàm bất kì đi kèm với junit thành pulic static void main
     public void testSuccessfulCases(){
-        assertEquals(0, cF(0));
+        assertEquals(1, cF(0));
         assertEquals(2, cF(2));
         assertEquals(6, cF(3));
         assertEquals(24, cF(4));
