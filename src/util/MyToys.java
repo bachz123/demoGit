@@ -14,7 +14,7 @@ public class MyToys {
         if(number < 0 || number > 15){
             throw new IllegalArgumentException("n must be between 1 and 15");
         }
-        int sum = 0;
+        int sum = 1;
         for(int i = 1; i <= number; i++){
             sum = sum*i;
         }
